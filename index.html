@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agerwal Home Decor</title>
+    <title>Shree Agerwal Home Decor</title>
 
     <meta
       name="description"
       content="Discover exquisite furniture and home decor at Shree Agarwal Home Decor. Explore our collection of handcrafted pieces, ranging from elegant sofas and chairs to stylish tables and accessories. Transform your living space with our unique designs."
     />
 
-    <link rel="shortcut icon" href="image/logo.webp" type="image/x-icon" />
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon" />
 
     <!-- font awesome cdn link  -->
     <link
@@ -25,21 +25,36 @@
       .hidden {
         display: none;
       }
+
+      .headingTitle {
+        color: #3f60a7 !important;
+      }
+
+      .headingSubTitle {
+        color: #eb4646 !important;
+        font-weight: 600 !important;
+      }
     </style>
   </head>
   <body>
-    
     <header class="header">
-      <a href="home.html" class="logo">
-        <i class="fas fa-lightbulb"></i> Agerwal Home Decor
+      <a href="index.html" class="logo">
+        <img
+          src="image/logo.jpg"
+          style="width: 12rem; margin-top: 5rem"
+          alt=""
+        />
       </a>
 
-     
       <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
-        <div id="search-btn" class="fas fa-search hidden"></div>
-        <div id="cart-btn" class="fas fa-shopping-cart hidden"></div>
-        <div id="login-btn" class="fas fa-user hidden"></div>
+        <div id="search-btn" style="display: none" class="fas fa-search"></div>
+        <div
+          id="cart-btn"
+          style="display: none"
+          class="fas fa-shopping-cart"
+        ></div>
+        <div id="login-btn" style="display: none" class="fas fa-user"></div>
       </div>
     </header>
 
@@ -64,8 +79,8 @@
       <div class="slides-container">
         <div class="slide active">
           <div class="content">
-            <span>new arrivals</span>
-            <h3>flexible chair</h3>
+            <span class="headingSubTitle">new arrivals</span>
+            <h3 class="headingTitle">flexible chair</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Consequatur quisquam, magnam enim sed debitis perspiciatis.
@@ -79,8 +94,8 @@
 
         <div class="slide">
           <div class="content">
-            <span>new arrivals</span>
-            <h3>flexible chair</h3>
+            <span class="headingSubTitle">new arrivals</span>
+            <h3 class="headingTitle">flexible chair</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Consequatur quisquam, magnam enim sed debitis perspiciatis.
