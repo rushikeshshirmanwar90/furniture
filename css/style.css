@@ -27,7 +27,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #3F60A7;
+  background: #3f60a7;
 }
 
 section {
@@ -35,7 +35,7 @@ section {
 }
 
 .heading {
-  background: #3F60A7;
+  background: #3f60a7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +89,7 @@ section {
 
 .title span {
   font-size: 2.5rem;
-  color: #244d4d;
+  color: #283561;
 }
 
 .title a {
@@ -643,7 +643,7 @@ section {
 }
 
 .category .box-container .box:hover {
-  background: #244d4d;
+  background: #3F60A7;
 }
 
 .category .box-container .box:hover img {
@@ -684,9 +684,9 @@ section {
   transform: scale(1.2);
 }
 
-.products .box-container .box:hover .icons {
+/* .products .box-container .box:hover .icons {
   top: 0;
-}
+} */
 
 .products .box-container .box .icons {
   position: absolute;
