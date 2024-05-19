@@ -106,13 +106,13 @@ section {
   margin-top: 1rem;
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
-  background: #244d4d;
+  background: #3F60A7;
   color: #fff;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #316868;
+  background: #3461c2;
 }
 
 .header {
@@ -567,7 +567,7 @@ section {
 
 .home #slide-next:hover,
 .home #slide-prev:hover {
-  background: #244d4d;
+  background: #3461c2;
   color: #fff;
 }
 
